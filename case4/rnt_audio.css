@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML and CSS, 7th Edition
+   Tutorial 8
+   Case Problem 4
+
+   Roads Not Taken Audio Styles
+   Author: Rami Hadey 
+   Date:   12/17/19
+
+   Filename: rnt_audio.css
+
+*/
+
+/* Audio Styles */
+/*step9*/
+audio{
+   display: block;
+   box-shadow: darkgray 8px -8px 15px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 80%;
+   border-radius: 70px;
+}
+
+/*step10*/
+audio::-webkit-media-controls-panel{
+   background: rgb(128,128,255);
+}
+
+figure{
+   background: rgb(100,0,0);
+}
+
+#Cyber{
+   margin-bottom: 30px;
+}
